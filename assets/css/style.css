@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.offCanBg{
+    background-color: #e90102;
+    width: 250px !important;
+}
+
+.sideMenu ul li a{
+    font-size: 18px;
+}
+
+.sideMenu ul li a:hover{
+    color: black !important;
+}
+
+.bannerBg{
+    background-image: url("../img/banner.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.fontEdit{
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.carItem{
+    margin: 8rem 8rem !important;
+}
+
+.btnHover:hover{
+    color: white;
+    background-color: #e90102;
+}
+
+.carousel-indicators > button {
+    border-radius: 50%;
+    width: 12px !important;
+    height: 12px !important;
+    margin-top: -15px; 
+}
+
+.aboutImage{
+    background: url("../img/afbecro.png");
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.aboutImage2{
+    background: url("../img/afbecro.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.classImage{
+    background: url("../img/afbecro.png");
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.textHover:hover{
+    color: #e90102;
+}
+
+.testImage{
+    background: url("../img/afbecro.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.carBg{
+    background: url("../img/test_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.contact{
+	margin-top: 90px;
+    background: #fff;
+    position: relative;
+}
+.contact .titlepage{
+	padding-bottom: 60px;
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .afbecros::before {
+        left: 7px;
+    }
+}
+
+.carousel-caption .afbecros::before{
+	left: inherit;
+	margin-top: 7px;
+}
+.afbecros::before{
+	position: absolute;
+    content: "";
+    width: 56px;
+    height: 100%;
+    background: url(../img/afbecro.png);
+    top: 0;
+    background-repeat: no-repeat;
+    bottom: 0;
+	margin-left: 6px;
+    background-position: center center;
+	z-index: 999;
+}
+input{
+	writing-mode: horizontal-tb !important;
+	text-rendering: auto;
+	letter-spacing: normal;
+	word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+	padding: 1px 2px;
+	border-image: initial;
+}
+
+.main_form .contactus{
+	border-bottom: #b2b2b2 solid 1px;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 57px;
+    background: 0 0;
+    color: #b2b2b2;
+    font-size: 18px;
+    font-weight: 400;
+    border-top: inherit;
+    border-left: inherit;
+    border-right: inherit;
+}
+.main_form .contactusmess{
+	border-bottom: #b2b2b2 solid 1px;
+    margin-bottom: 25px;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 14px;
+    background: 0 0;
+    color: #b2b2b2;
+    font-size: 18px;
+    font-weight: 400;
+    border-top: inherit;
+    border-left: inherit;
+    border-right: inherit;
+}
+button, input{
+	overflow: visible;
+}
+button, input, optgroup, select, textarea{
+	font-family: inherit;
+	line-height: inherit;
+}
+.send_btn{
+	background: #000;
+    font-weight: 500;
+    font-size: 40px;
+    max-width: 598px;
+    width: 100%;
+    color: #fff;
+    height: 89px;
+    margin-top: 40px!important;
+    transition: ease-in all .5s;
+    text-transform: uppercase;
+    margin: 0 auto;
+    display: block;
+    line-height: 40px;
+    border-radius: 16px;
+	margin-bottom: 30px;
+}
+button{
+	border: 0;
+		padding: 30px;
+    cursor: pointer;
+	margin-bottom: 30px;
+}
+@media (min-width: 1200px){
+    .container {
+        max-width: 1140px;
+    }    
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+	margin-top:50px;
+}
+
+.footer {
+    background: #fff;
+    margin-top: 90px;
+    text-align: center;
+}
+
+ul.location_icon {
+    font-family: Roboto,sans-serif;
+    text-align: center;
+    padding-bottom: 70px;
+	display:flex;
+	
+	
+	
+	
+}
+
+li, ol, ul {
+    margin: 10px 20px;
+    padding: 10px 50px;
+    list-style: none;
+}
+
+.row {
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+p{
+	font-size:20px;
+}
